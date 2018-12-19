@@ -41,6 +41,10 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
+.container {
+  max-width: 450px;
+  margin: 0 auto; }
+
 .cover-container {
   max-width: 42em;
 }
@@ -61,6 +65,12 @@ li:before {
   padding-right: 5px;
 }
 
+.hide {
+  display: none; }
+
+.modal-title, .modal-body {
+  color: black;
+}
 
 /*
  * Header
