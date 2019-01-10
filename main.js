@@ -3,29 +3,16 @@ $(document).ready(() => {
       $('#myInput').trigger('focus')
     })
 
-    $('#snugcircle-container').mouseover(function() {
-        $(".snugcircle-skills").show()
+    $('#instigator').click(function() {
+        $("#instigator-skills").slideToggle("slow")
     })
 
-    $('#snugcircle-container').mouseleave(function(){
-        $(".snugcircle-skills").hide()
+    $('#adventure').click(function() {
+        $("#adventure-skills").slideToggle("slow")
     })
 
-    $('#adventure-container').mouseover(function() {
-        $(".adventure-skills").show()
+    $('#snugcircle').click(function() {
+        $("#snugcircle-skills").slideToggle("slow")
     })
-
-    $('#adventure-container').mouseleave(function(){
-        $(".adventure-skills").hide()
-    })
-
-    $('#instigator-container').mouseover(function() {
-        $(".instigator-skills").show()
-    })
-
-    $('#instigator-container').mouseleave(function(){
-        $(".instigator-skills").hide()
-    })
-
 
 });

@@ -48,6 +48,11 @@ body {
   max-width: 42em;
 }
 
+/* We only have one image. */
+img {
+  float:        right;
+}
+
 ul {
   list-style: none;
   margin-left: 0;
@@ -60,8 +65,8 @@ li {
 }
 
 li:before {
-  content: "❖";
-  padding-right: 5px;
+  content:         "❖";
+  padding-right:   5px;
 }
 
 .snugcircle-skills {
