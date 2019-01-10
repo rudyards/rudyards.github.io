@@ -69,15 +69,8 @@ li:before {
   padding-right:   5px;
 }
 
-.snugcircle-skills {
-  padding-left: 20px;
-}
-
-.instigator-skills {
-  padding-left: 20px;
-}
-
-.adventure-skills {
+.skills {
+  display:      none;
   padding-left: 20px;
 }
 
