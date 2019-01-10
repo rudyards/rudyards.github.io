@@ -131,6 +131,13 @@ li:before {
   }
 }
 
+.center {
+  text-align: center;
+}
+
+.tiny {
+  font-size:        0.6em;
+}
 
 /*
  * Cover
