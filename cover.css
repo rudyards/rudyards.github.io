@@ -90,19 +90,19 @@ li:before {
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom:    2rem;
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+  margin-bottom:    0;
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  padding:          0.25rem 0;
+  font-weight:      700;
+  color:            rgba(255, 255, 255, .5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom:    .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
@@ -146,7 +146,6 @@ li:before {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
 
 
 /*
