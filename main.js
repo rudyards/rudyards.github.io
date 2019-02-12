@@ -15,4 +15,8 @@ $(document).ready(() => {
         $("#snugcircle-skills").slideToggle("slow")
     })
 
+    $('#cuteorcuter').click(function() {
+        $("#cuteorcuter-skills").slideToggle("slow")
+    })
+
 });
