@@ -19,4 +19,20 @@ $(document).ready(() => {
         $("#cuteorcuter-skills").slideToggle("slow")
     })
 
+    $('#quoridoor').click(function() {
+        $("#quoridoor-skills").slideToggle("slow")
+    })
+
+    $('#readerly').click(function() {
+        $("#readerly-skills").slideToggle("slow")
+    })
+
+    $('#taverntalk').click(function() {
+        $("#taverntalk-skills").slideToggle("slow")
+    })
+
+    $('#triviahub').click(function() {
+        $("#triviahub-skills").slideToggle("slow")
+    })
+
 });

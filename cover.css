@@ -51,6 +51,7 @@ body {
 /* We only have one image. */
 img {
   float:        right;
+  padding-left: 20px;
 }
 
 ul {
@@ -84,6 +85,10 @@ li:before {
 .btn-primary {
   padding: 5px;
   margin: 2px;
+}
+
+.lead {
+  font-size: 1.05rem;
 }
 
 /*
