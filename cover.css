@@ -5,7 +5,7 @@
 /* Links */
 a:focus,
 a:hover {
-  color: #fff;
+  color: blue;
 }
 
 a {
@@ -45,13 +45,13 @@ body {
   margin: 0 auto; }
 
 .cover-container {
-  max-width: 44em;
+  max-width: 55em;
 }
 
 /* We only have one image. */
 img {
   float:        right;
-  padding-left: 20px;
+  padding-left: 1em;
 }
 
 ul {
@@ -70,8 +70,31 @@ li:before {
   padding-right:   5px;
 }
 
+.projects {
+  display:flex;
+
+}
+
+.card {
+  margin-right: .5em;
+  width: 33%;
+}
+
+.card-text {
+  color: black;
+  text-shadow: none;
+}
+
+.intro {
+  padding-bottom: 1em;
+  font-size: 1.15rem;
+}
+
+.title {
+  padding-left: .65em;
+}
+
 .skills {
-  display:      none;
   padding-left: 20px;
 }
 
@@ -152,6 +175,9 @@ li:before {
   font-weight: 700;
 }
 
+.cover-heading {
+  padding-top: 2rem;
+}
 
 
 /*
